@@ -10,7 +10,7 @@ On your VPS, start a `tmux` session and run:
 git clone https://github.com/wazzydotdev/drop
 cd drop/server
 
-export DROP_TOKEN="your-token"
+DROP_TOKEN=your-token
 
 go run .
 ```
